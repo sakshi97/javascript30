@@ -1,6 +1,6 @@
 
 html{
-background: url(background.jpg) no-repeat center center fixed;
+background: url(background2.png) no-repeat center center fixed;
 background-size: cover;
 }
 
@@ -20,6 +20,16 @@ background-size: cover;
   border: 10px solid black ;
   border-radius: 50%;
   color:white;
+}
+
+.clock_centre{
+  position: absolute;
+  top:140px;
+  left:143px;
+  min-height: 20px;
+  min-width: 20px;
+  border-radius: 50%;
+  background-color: black;
 }
 
 .hand{
