@@ -1,0 +1,53 @@
+
+html{
+background: url(background.jpg) no-repeat center center fixed;
+background-size: cover;
+}
+
+.center{
+  position: fixed;
+  width:100%;
+  height: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clock_outline{
+  position: relative;
+  height: 300px;
+  width: 300px;
+  border: 10px solid black ;
+  border-radius: 50%;
+  color:white;
+}
+
+.hand{
+  position: absolute;
+  left:150px;
+  bottom:150px;
+  color: white;
+  transform-origin: bottom center;
+  transition: transform 0.5s ease;
+}
+
+.hourhand{
+  height: 80px;
+  width:6px;
+  background-color: black;
+  transform:rotate(10deg);
+}
+
+.minutehand{
+  height: 130px;
+  width:6px;
+  background-color: black;
+  transform:rotate(0deg);
+}
+
+.secondhand{
+  height: 130px;
+  width:6px;
+  background-color: red;
+  transform:rotate(20deg);
+}
