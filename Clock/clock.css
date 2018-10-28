@@ -29,25 +29,23 @@ background-size: cover;
   color: white;
   transform-origin: bottom center;
   transition: transform 0.5s ease;
+  transform: rotate(0deg);
 }
 
 .hourhand{
   height: 80px;
   width:6px;
   background-color: black;
-  transform:rotate(10deg);
 }
 
 .minutehand{
   height: 130px;
   width:6px;
   background-color: black;
-  transform:rotate(0deg);
 }
 
 .secondhand{
   height: 130px;
   width:6px;
   background-color: red;
-  transform:rotate(20deg);
 }
