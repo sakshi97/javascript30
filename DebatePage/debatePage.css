@@ -1,0 +1,73 @@
+.panels{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  height: 100%;
+  width:100%;
+  top:0;
+  left:0;
+}
+
+.panel{
+  flex:1;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: bold;
+  transition : all 0.7s cubic-bezier(0.61,-0.19,0.7,-0.11);
+  text-shadow: 2px 2px 9px white;
+}
+
+.panel.focus{
+  flex:5 !important;
+}
+
+.panel p, .panel ul{
+    position: absolute;
+    top: -100%;
+}
+.panel.open p, .panel.open ul{
+  position: relative;
+  top:0%;
+}
+
+.panel1{
+  background: url("who.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.panel2{
+  background: url("what.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.panel3{
+  background: url("how.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.panel4{
+  background: url("why.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.panel5{
+  background: url("when.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.subpanel{
+display:flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+
+.subpanel p,ul{
+  align-self: flex-start;
+}
